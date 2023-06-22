@@ -9,8 +9,8 @@
   --bg-url: url(./assets/bg-mobile-dark-2.jpg);
   --stroke-color: rgba(255, 255, 255, 0.5);
   --surface-color: rgba(255, 255, 255, 0.05);
-  --surface-color-hover: rgba(0, 0, 0, 0.02);
-  --hightligh-color: rgba(0, 0, 0, 0.1);
+  --surface-color-hover: rgba(255, 255, 255, 0.02);
+  --hightligh-color: rgba(255, 255, 255, 0.1);
   --switch-bg-url: url(./assets/moon-stars.svg);
 }
 
@@ -124,7 +124,7 @@ ul li a {
 
   padding: 16px 24px;
 
-  background: var(--surface-color);
+  background: white var(--surface-color);
   border: 1px solid var(--stroke-color);
   border-radius: 15px;
 
@@ -188,18 +188,18 @@ footer {
 /* animations */
 @keyframes slide-in {
   from {
-    left: 0;
+    right: 0;
   }
   to {
-    right: 50%;
+    left: 50%;
   }
 }
 
 @keyframes slide-back {
   from {
-    right: 50%;
+    left: 50%;
   }
   to {
-    left: 0;
+    right: 0;
   }
 }
